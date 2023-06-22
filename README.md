@@ -1,6 +1,6 @@
 # Conda environment with environment.yml
 
-[![Binder](http://mybinder.org/badge_logo.svg)]([https://mybinder.org/v2/gh/ksorathia23/7030_conda_.git/HEAD])
+[![Binder](http://mybinder.org/badge_logo.svg)][https://mybinder.org/v2/gh/ksorathia23/7030_conda_.git/HEAD]
 
 A Binder-compatible repo with an `environment.yml` file.
 
