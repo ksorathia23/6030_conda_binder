@@ -1,0 +1,13 @@
+{
+  "base_url": "/user/ksorathia23-7030_conda_binder-6xrvg8ow/",
+  "hostname": "0.0.0.0",
+  "password": false,
+  "pid": 25,
+  "port": 8888,
+  "root_dir": "/home/jovyan",
+  "secure": false,
+  "sock": "",
+  "token": "ar_39EESToGsd-qAWGRvtA",
+  "url": "http://jupyter-ksorathia23-2d7030-5fconda-5fbinder-2d6xrvg8ow:8888/user/ksorathia23-7030_conda_binder-6xrvg8ow/",
+  "version": "1.23.6"
+}
