@@ -62,3 +62,8 @@ Please note that updating to Notebook 7 might break some of your extensions.
 [I 2023-06-24 22:50:41.301 ServerApp] Uploading file to /bash_hello_world.ipynb
 [I 2023-06-24 22:50:48.006 ServerApp] Uploading file to /python_hello_world.ipynb
 [I 2023-06-24 22:50:50.988 ServerApp] New terminal with automatic name: 1
+[W 2023-06-24 22:53:23.631 ServerApp] 404 GET /user/ksorathia23-7030_conda_binder-6xrvg8ow/api/contents/gitignore?content=0&1687647203198 (174.103.104.110): file or directory does not exist: 'gitignore'
+[W 2023-06-24 22:53:23.631 ServerApp] wrote error: "file or directory does not exist: 'gitignore'"
+[W 2023-06-24 22:53:23.632 ServerApp] 404 GET /user/ksorathia23-7030_conda_binder-6xrvg8ow/api/contents/gitignore?content=0&1687647203198 (174.103.104.110) 3.53ms referer=https://hub.ovh2.mybinder.org/user/ksorathia23-7030_conda_binder-6xrvg8ow/lab
+[I 2023-06-24 22:53:23.783 ServerApp] Uploading file to /gitignore
+[I 2023-06-24 23:02:21.806 ServerApp] Saving file at /environment.yml
