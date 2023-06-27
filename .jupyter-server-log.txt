@@ -67,3 +67,72 @@ Please note that updating to Notebook 7 might break some of your extensions.
 [W 2023-06-24 22:53:23.632 ServerApp] 404 GET /user/ksorathia23-7030_conda_binder-6xrvg8ow/api/contents/gitignore?content=0&1687647203198 (174.103.104.110) 3.53ms referer=https://hub.ovh2.mybinder.org/user/ksorathia23-7030_conda_binder-6xrvg8ow/lab
 [I 2023-06-24 22:53:23.783 ServerApp] Uploading file to /gitignore
 [I 2023-06-24 23:02:21.806 ServerApp] Saving file at /environment.yml
+Launching jupyter-lab
+[I 2023-06-27 16:51:56.268 ServerApp] jupyter_offlinenotebook | extension was successfully linked.
+[I 2023-06-27 16:51:56.269 ServerApp] jupyter_resource_usage | extension was successfully linked.
+[I 2023-06-27 16:51:56.273 ServerApp] jupyter_server_fileid | extension was successfully linked.
+[I 2023-06-27 16:51:56.273 ServerApp] jupyter_server_proxy | extension was successfully linked.
+[I 2023-06-27 16:51:56.277 ServerApp] jupyter_server_ydoc | extension was successfully linked.
+[W 2023-06-27 16:51:56.279 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-06-27 16:51:56.279 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-06-27 16:51:56.279 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-06-27 16:51:56.279 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-06-27 16:51:56.279 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-06-27 16:51:56.282 ServerApp] jupyterlab | extension was successfully linked.
+[W 2023-06-27 16:51:56.285 NotebookApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2023-06-27 16:51:56.285 NotebookApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2023-06-27 16:51:56.285 NotebookApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-06-27 16:51:56.285 NotebookApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-06-27 16:51:56.285 NotebookApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-06-27 16:51:56.288 ServerApp] nbclassic | extension was successfully linked.
+[I 2023-06-27 16:51:56.704 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-06-27 16:51:56.730 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-06-27 16:51:56.730 ServerApp] jupyter_offlinenotebook | extension was successfully loaded.
+[I 2023-06-27 16:51:56.731 ServerApp] jupyter_resource_usage | extension was successfully loaded.
+[I 2023-06-27 16:51:56.731 FileIdExtension] Configured File ID manager: ArbitraryFileIdManager
+[I 2023-06-27 16:51:56.731 FileIdExtension] ArbitraryFileIdManager : Configured root dir: /home/jovyan
+[I 2023-06-27 16:51:56.731 FileIdExtension] ArbitraryFileIdManager : Configured database path: /home/jovyan/.local/share/jupyter/file_id_manager.db
+[I 2023-06-27 16:51:56.735 FileIdExtension] ArbitraryFileIdManager : Successfully connected to database file.
+[I 2023-06-27 16:51:56.735 FileIdExtension] ArbitraryFileIdManager : Creating File ID tables and indices with journal_mode = DELETE
+[I 2023-06-27 16:51:56.736 ServerApp] jupyter_server_fileid | extension was successfully loaded.
+[I 2023-06-27 16:51:56.748 ServerApp] jupyter_server_proxy | extension was successfully loaded.
+[I 2023-06-27 16:51:56.749 ServerApp] jupyter_server_ydoc | extension was successfully loaded.
+[I 2023-06-27 16:51:56.750 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.11/site-packages/jupyterlab
+[I 2023-06-27 16:51:56.750 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 2023-06-27 16:51:56.753 ServerApp] jupyterlab | extension was successfully loaded.
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+                                                                           
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
+[I 2023-06-27 16:51:56.758 ServerApp] nbclassic | extension was successfully loaded.
+[I 2023-06-27 16:51:56.758 ServerApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 2023-06-27 16:51:56.758 ServerApp] Serving notebooks from local directory: /home/jovyan
+[I 2023-06-27 16:51:56.758 ServerApp] Jupyter Server 1.23.6 is running at:
+[I 2023-06-27 16:51:56.758 ServerApp] http://jupyter-ksorathia23-2d7030-5fconda-5fbinder-2d4y2wn3ll:8888/user/ksorathia23-7030_conda_binder-4y2wn3ll/lab?token=...
+[I 2023-06-27 16:51:56.758 ServerApp]  or http://127.0.0.1:8888/user/ksorathia23-7030_conda_binder-4y2wn3ll/lab?token=...
+[I 2023-06-27 16:51:56.758 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2023-06-27 16:51:56.762 ServerApp] No web browser found: could not locate runnable browser.
+[I 2023-06-27 16:52:00.169 ServerApp] 302 GET /user/ksorathia23-7030_conda_binder-4y2wn3ll/ (10.2.6.12) 1.19ms
+[I 2023-06-27 16:52:00.578 ServerApp] 302 GET /user/ksorathia23-7030_conda_binder-4y2wn3ll/?token=[secret] (140.254.70.167) 1.68ms
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2023-06-27 16:52:11.137 ServerApp] 404 GET /user/ksorathia23-7030_conda_binder-4y2wn3ll/api/me?1687884731635 (140.254.70.167) 17.60ms referer=https://hub.ovh2.mybinder.org/user/ksorathia23-7030_conda_binder-4y2wn3ll/lab
+[I 2023-06-27 16:52:13.510 LabApp] Build is up to date
+[W 2023-06-27 16:53:08.944 ServerApp] 404 GET /user/ksorathia23-7030_conda_binder-4y2wn3ll/api/contents/gitignore?content=0&1687884789626 (140.254.70.167): file or directory does not exist: 'gitignore'
+[W 2023-06-27 16:53:08.946 ServerApp] wrote error: "file or directory does not exist: 'gitignore'"
+[W 2023-06-27 16:53:08.948 ServerApp] 404 GET /user/ksorathia23-7030_conda_binder-4y2wn3ll/api/contents/gitignore?content=0&1687884789626 (140.254.70.167) 13.01ms referer=https://hub.ovh2.mybinder.org/user/ksorathia23-7030_conda_binder-4y2wn3ll/lab
+[I 2023-06-27 16:53:10.981 ServerApp] New terminal with automatic name: 1
+[I 2023-06-27 16:57:12.286 ServerApp] Saving file at /environment.yml
+[W 2023-06-27 17:00:28.343 ServerApp] delete /bash_hello_world.ipynb
+[W 2023-06-27 17:00:33.439 ServerApp] delete /python_hello_world.ipynb

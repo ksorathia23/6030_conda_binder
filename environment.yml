@@ -11,7 +11,7 @@ dependencies:
   - r-tidyverse
   - r-plotly
   - r-stringr
-  - python=3.11
+  - python=3.9
   - numpy
   - psutil
   - toolz
@@ -24,7 +24,4 @@ dependencies:
   - pip
   - pip:
     - plotly 
-    - pandas
-    - matplotlib
     - scikit-learn
-    - numpy
